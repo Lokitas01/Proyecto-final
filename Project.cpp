@@ -18,7 +18,8 @@ int main(){
 			}system("cls");
 		}while(opcion1!=1 && opcion1!=2 && opcion1!=3 && opcion1!=4 && opcion1!=5);
 		system("cls");
-		if(opcion1==1){
+		switch(opcion1){
+		case 1: {
 			do{
 				cout<<"\t\tCINEPLANET\n";
 				cout<<"Elija el local:\n"<<endl;
@@ -43,7 +44,7 @@ int main(){
 					cout<<"3. Avengers"<<endl;
 					cout<<"4. Forrest Gump"<<endl;
 					cout<<"5. Harry Potter"<<endl;
-					cout<<"Ingrese la opcion deseada: "<<endl;
+					cout<<"Ingrese la opcion deseada ---> ";
 					cin>>opcion3;
 					if(opcion3!=1 && opcion3!=2 && opcion3!=3 && opcion3!=4 && opcion3!=5){
 					cout<<"Error. Ingrese una opcion valida"<<endl;
@@ -51,6 +52,20 @@ int main(){
 					system("cls");
 				}while(opcion3!=1 && opcion3!=2 && opcion3!=3 && opcion3!=4 && opcion3!=5);
 			}
+	break;}
+		case 2:{
+			break;
+		}
+		case 3:{
+			break;
+		}
+		case 4:{
+			break;
+		}
+		case 5:{
+			break;
+		}
+	
 	}
 	return 0;
 }
